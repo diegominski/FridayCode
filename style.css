@@ -1,0 +1,28 @@
+
+*{
+  overflow: hidden;
+  margin: 0
+}
+
+
+/* #div1::-webkit-scrollbar {
+  display: none;
+} */
+#div1{
+position: absolute;
+/* overflow-y: scroll; */
+height: 600px;
+font-size: 40px;
+color:rgb(189, 242, 0);
+width: 500px;
+margin: 150px;
+z-index: 2;
+}
+
+
+#myContainer {
+margin: 0;
+position: absolute;
+overflow: hidden;
+z-index: -1;
+}
